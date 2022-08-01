@@ -1,0 +1,109 @@
+/** {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+
+}
+.form h1 {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.form label {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.form input,
+select {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  caret-color: red;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(67, 83, 61);*/
+  /*background: url(https://images.hdqwalls.com/wallpapers/material-design-grey-po.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+
+
+#submit {
+  background-color: #1197cc;
+  box-shadow: #094c66 4px 4px 0px;
+  border-radius: 20px;
+  transition: transform 200ms, box-shadow 200ms;
+}
+#submit:active {
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #094c66 0px 0px 0px;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://besthqwallpapers.com/Uploads/11-5-2019/91419/thumb2-yellow-material-background-material-design-yellow-black-abstraction-lines-abstract-backgrounds.jpg);
+  font-family: sans-serif;
+}
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: absolute;
+}
+form{
+  width: 500px;
+  background-color: #777;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50px;
+}
+input, select {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  outline: none;
+
+}
+#submit {
+  background-color: #1197cc;
+  box-shadow: #094c66 4px 4px 0px;
+  border-radius: 100px;
+  padding: 15px;
+  position: relative;
+  transition: transform 200ms, box-shadow 200ms;
+  
+}
+#submit:active {
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #094c66 0px 0px 0px;
+}
+

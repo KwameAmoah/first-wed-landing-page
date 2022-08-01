@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.reg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  
+
+}
+.reg h1 {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.reg label, select {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.reg input, select {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  caret-color: red;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(67, 83, 61);*/
+  background: url(https://images.hdqwalls.com/wallpapers/material-design-grey-po.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+
+#submit {
+  background-color: #1197cc;
+  box-shadow: #094c66 9px 9px 0px;
+  padding: 30px;
+  border-radius: 50px;
+  font-size: 15px;
+  transition: transform 200ms, box-shadow 200ms;
+  align-self: center ;
+}
+#submit:active {
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #094c66 0px 0px 0px;
+}

@@ -1,0 +1,15 @@
+body {background: #43533d;
+
+}
+
+h1 , h2 {
+  color: #e6ecff;
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0px 20px;
+  text-align: center;
+}
+p, dl,  {
+  text-align:center;
+}
